@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #0b0b0b;
+  color: #fff;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ccc;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+.cta {
+  background: linear-gradient(135deg, #d4af37, #f5d97b);
+  border: none;
+  padding: 10px 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+}
+
+.hero span {
+  color: gold;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 30px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,215,0,0.2);
+  margin: 10px;
+  padding: 25px;
+  border-radius: 12px;
+  width: 220px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: gold;
+}
+
+/* TIMELINE */
+.timeline {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.timeline div {
+  padding: 15px;
+  border-bottom: 2px solid gold;
+}
+
+/* FORM */
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  background: #111;
+  border: 1px solid #333;
+  color: white;
+  border-radius: 6px;
+}
+
+/* FOOTER */
+footer {
+  background: #000;
+  padding: 20px;
+}
